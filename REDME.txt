@@ -1,0 +1,17 @@
+# MNIST Digit Classification with CNN
+
+## Overview
+This project demonstrates growth from a basic neural network to a **Convolutional Neural Network (CNN)** for classifying handwritten digits (0-9). The MNIST dataset is used, achieving over 98% accuracy.
+
+## Features
+- **Data Normalization:** Scales pixel values to [0, 1] for faster training.
+- **CNN Architecture:** Uses Conv2D and MaxPooling layers to extract spatial features.
+- **Overfitting Control:** Includes a Dropout layer to improve generalization.
+- **Visualizations:** Real-time plots for training history and sample predictions.
+
+## How to Run
+1. Install dependencies: `pip install tensorflow matplotlib numpy`
+2. Run the Jupyter Notebook or Python script.
+
+## Results
+The model consistently achieves high accuracy on the test set, demonstrating the power of convolutional layers in computer vision tasks.
